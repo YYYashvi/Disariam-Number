@@ -38,3 +38,52 @@ input{
 	margin-bottom: 15px;
 }
 
+#resultDiv{
+	animation-name: Animation1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	font-size: 80px;
+	text-align: center;
+}
+
+@keyframes Animation1{
+
+0%{
+background-color:yellow;
+color:red;
+
+}
+
+25%{
+background-color:white;
+color:blue;
+
+}
+
+50%{
+background-color:green;
+color:white;
+
+}
+
+75%{
+background-color:purple;
+color:yellow;
+
+}
+
+
+75%{
+background-color:pink;
+color:blue;
+
+}
+
+
+
+
+
+
+
+}
+
